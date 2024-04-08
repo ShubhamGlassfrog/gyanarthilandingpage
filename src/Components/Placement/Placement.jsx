@@ -24,7 +24,7 @@ const NewSection = () => {
     return (
 
         <div className="container mx-auto placement_comapny_slider">
-            {/* First row */}
+            {/* First row new section*/}
             <div className="mb-8">
                 <h2 className="text-xl md:text-3xl font-bold leading-tight md:text-center text-left">
                     Get your hands on Industry Relevant Courses <br className="hidden md:inline" /> in Mass Communication, Media, Fashion, and Commerce
