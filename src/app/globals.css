@@ -64,6 +64,15 @@ body {
   ;
 }
 
+@media only screen and (max-width: 600px) {
+  .placement_comapny_slider {
+    padding: 44px 37px 44px 37px;
+    text-align: left;
+    background-color: #F5F8FE;
+    ;
+  }
+}
+
 .placement_heading {
   font-family: Plus Jakarta Sans;
   font-size: 48px;
@@ -152,6 +161,51 @@ body {
   background: #0D254DCC;
 }
 
+form {
+  gap: 0.4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
 .form {
   background-color: #F5F8FE;
+}
+
+.text2010 {
+  width: 382px;
+  height: 105px;
+}
+
+.text2010border {
+  border-left: 0.5px solid #9F9F9F;
+}
+
+.tpip {
+  padding: 1rem;
+  background: #F5F8FE;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 32.76px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #0D254D;
+}
+
+
+
+.vision {
+  background-color: #F5F8FE;
+  width: 943px;
+  height: 495px;
+  top: 1276px;
+  left: 373px;
+  gap: 0px;
+  opacity: 0px;
+  position: absolute;
 }

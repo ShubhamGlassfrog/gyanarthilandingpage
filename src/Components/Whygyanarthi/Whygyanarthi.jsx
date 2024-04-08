@@ -13,12 +13,12 @@ const Whygyanarthi = () => {
         <section className="py-12 px-4 md:px-0 container">
             <div className="max-w-6xl mx-auto">
                 {/* First Row */}
-                <div className="mb-8 text-center">
+                <div className="mb-8 text-center md:text-left sm:text-left">
                     <h2 className="text-3xl font-bold">Why Gyanarthi?</h2>
                 </div>
 
                 {/* Second Row */}
-                <div className="mb-8 text-center">
+                <div className="mb-8 text-center md:text-left sm:text-left">
                     <p className="text-lg">
                         The industry specific curriculum at Gyanarthi is backed by relevance and expertise. Affiliated with the Kumaun University, the college is home to top faculty and has a state-of-the-art infrastructure. Providing best education in mass communication, animation, design, and commerce, Gyanarthi Media College elevates the academia experience for the students in Kashipur and beyond!
                     </p>
