@@ -1362,8 +1362,8 @@ const Main = () => {
     };
 
     return (
-        <section className="bg-cover bg-center h-screen flex items-center imgbc" >
-            <div className="container mx-auto px-4">
+        <section className="bg-cover bg-center  flex items-center imgbc" >
+            <div className="container mx-auto px-4 py-8">
                 <div className="flex flex-col md:flex-row">
                     <div className="md:w-1/2 md:pr-4 flex flex-col justify-center">
                         <h2 className="text-4xl font-bold text-white mb-4">Empowering Minds to Shape a Better Tomorrow</h2>
