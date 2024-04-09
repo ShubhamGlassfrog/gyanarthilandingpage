@@ -26,7 +26,7 @@ const NewSection = () => {
         <div className="container mx-auto placement_comapny_slider">
             {/* First row new section*/}
             <div className="mb-8">
-                <h2 className="text-xl md:text-3xl font-bold leading-tight md:text-center text-left">
+                <h2 className="text-xl md:text-3xl font-bold leading-tight md:text-center text-left text-black">
                     Get your hands on Industry Relevant Courses <br className="hidden md:inline" /> in Mass Communication, Media, Fashion, and Commerce
                 </h2>
             </div>

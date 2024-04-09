@@ -10,7 +10,7 @@ import Vector4 from '../../../public/Vector4.png';
 
 const Whygyanarthi = () => {
     return (
-        <section className="py-12 px-4 md:px-0 container">
+        <section className="py-12 px-4 md:px-0 container text-black">
             <div className="max-w-6xl mx-auto">
                 {/* First Row */}
                 <div className="mb-8 text-center md:text-left sm:text-left">

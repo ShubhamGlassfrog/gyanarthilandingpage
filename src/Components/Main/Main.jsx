@@ -1376,7 +1376,7 @@ const Main = () => {
                             <div className="bg-red-500 text-white p-4 mb-4 rounded-md">
                                 Registration End Date: Date, 2024
                             </div>
-                            <form className='w-full' action="https://getform.io/f/paqgmyoa" method="POST">
+                            <form className='w-full text-gray-400' action="https://getform.io/f/paqgmyoa" method="POST">
                                 <div className="mb-4 name" >
                                     <div className="flex mb-2">
                                         <div className="w-full pr-2">
@@ -1421,7 +1421,7 @@ const Main = () => {
                                     <div className="flex mb-2">
                                         <div className="w-1/2 pr-2">
                                             <select
-                                                className="w-full p-2 border rounded-md"
+                                                className="w-full p-2 border rounded-md text-gray-400"
                                                 onChange={handleStateChange}
                                                 value={selectedState}
                                                 name='state'
@@ -1434,7 +1434,7 @@ const Main = () => {
                                         </div>
                                         <div className="w-1/2 pl-2">
                                             <select
-                                                className="w-full p-2 border rounded-md"
+                                                className="w-full p-2 border rounded-md text-gray-400"
                                                 name='city'
                                                 onChange={(e) => setSelectedCity(e.target.value)}
                                                 value={selectedCity}
@@ -1452,7 +1452,7 @@ const Main = () => {
                                     <div className="flex mb-2">
                                         <div className="w-1/2 pr-2">
                                             <select
-                                                className="w-full p-2 border rounded-md"
+                                                className="w-full p-2 border rounded-md text-gray-400"
                                                 onChange={handleCourseChange}
                                                 value={selectedCourse}
                                                 name='course'
@@ -1465,7 +1465,7 @@ const Main = () => {
                                         </div>
                                         <div className="w-1/2 pl-2">
                                             <select
-                                                className="w-full p-2 border rounded-md"
+                                                className="w-full p-2 border rounded-md text-gray-400"
                                                 onChange={(e) => setSelectedProgram(e.target.value)}
                                                 value={selectedProgram}
                                                 name='program'
