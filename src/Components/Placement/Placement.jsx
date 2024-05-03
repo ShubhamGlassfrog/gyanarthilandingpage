@@ -37,7 +37,6 @@ const NewSection = () => {
             {/* Third row */}
             <div className="swiper-container pt-32 px-4 md:px-8 lg:px-16">
                 <Swiper
-                    slidesPerView={5}
                     spaceBetween={100}
                     breakpoints={{
                         640: {
