@@ -1425,6 +1425,7 @@ const Main = () => {
                                                 onChange={handleStateChange}
                                                 value={selectedState}
                                                 name='state'
+                                                required
                                             >
                                                 <option value="">Select State</option>
                                                 {Object.keys(stateCityMap).map((state, index) => (
@@ -1438,7 +1439,8 @@ const Main = () => {
                                                 name='city'
                                                 onChange={(e) => setSelectedCity(e.target.value)}
                                                 value={selectedCity}
-                                                disabled={!selectedState} // Disable city select until state is selected
+                                                disabled={!selectedState}
+                                                required
                                             >
                                                 <option value="">Select City</option>
                                                 {stateCityMap[selectedState] && stateCityMap[selectedState].map((city, index) => (
@@ -1456,6 +1458,7 @@ const Main = () => {
                                                 onChange={handleCourseChange}
                                                 value={selectedCourse}
                                                 name='course'
+                                                required
                                             >
                                                 <option value="">Select Course</option>
                                                 {Object.keys(courseProgramMap).map((course, index) => (
@@ -1470,6 +1473,7 @@ const Main = () => {
                                                 value={selectedProgram}
                                                 name='program'
                                                 disabled={!selectedCourse} // Disable program select until course is selected
+                                                required
                                             >
                                                 <option value="">Select Program</option>
                                                 {courseProgramMap[selectedCourse] && courseProgramMap[selectedCourse].map((program, index) => (
